@@ -1,10 +1,5 @@
 ---
-layout: default
+layout: publications
 title: Publications
 ---
-
-# Publications
-
-- **Paper Title**, Conference/Journal, Year  
-- **Another Paper**, Venue, Year
 

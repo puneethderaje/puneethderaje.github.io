@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>{{ page.title }} | {{ site.title }}</title>
+<link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+
+<nav>
+  <h2>{{ site.title }}</h2>
+  <div>
+    <a href="/">Home</a>
+    <a href="/research">Research</a>
+    <a href="/publications">Publications</a>
+    <a href="/updates">Updates</a>
+  </div>
+</nav>
+
+<main>
+
+<h1>Publications</h1>
+
+{% raw %}{% for pub in site.data.publications %}
+<div class="pub-card">
+
+<p class="pub-title">{{ pub.title }}</p>
+
+<p>
+{{ pub.authors }}<br>
+<em>{{ pub.venue }}</em>, {{ pub.year }}
+</p>
+
+<p class="pub-links">
+
+{% if pub.biorxiv %}
+<a href="{{ pub.biorxiv }}">bioRxiv</a>
+{% endif %}
+
+{% if pub.journal %}
+<a href="{{ pub.journal }}">Published Version</a>
+{% endif %}
+
+{% if pub.slides %}
+<a href="{{ pub.slides }}">Slides</a>
+{% endif %}
+
+</p>
+
+</div>
+{% endfor %}{% endraw %}
+
+</main>
+
+</body>
+</html>
+

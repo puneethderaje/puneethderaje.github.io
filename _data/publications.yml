@@ -1,0 +1,15 @@
+- title: "Deep Learning in Biology"
+  authors: "Your Name, Collaborator A, Collaborator B"
+  venue: "Nature Methods"
+  year: 2025
+  biorxiv: "https://biorxiv.org/xxxx"
+  journal: "https://doi.org/xxxx"
+  slides: "https://yourwebsite.com/slides.pdf"
+
+- title: "Computational Analysis of Cells"
+  authors: "Your Name, Collaborator C"
+  venue: "Bioinformatics"
+  year: 2024
+  biorxiv: "https://biorxiv.org/yyyy"
+  journal: "https://doi.org/yyyy"
+
