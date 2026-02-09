@@ -25,3 +25,22 @@ main {
   padding: 40px;
 }
 
+
+.pub-card {
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.pub-title {
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.pub-links a {
+  margin-right: 15px;
+  text-decoration: none;
+  font-weight: 500;
+}
