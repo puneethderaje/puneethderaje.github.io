@@ -1,5 +1,5 @@
 - title: "Estimating dispersal rates and locating every genetic ancestor of linked loci."
-  authors: "Deraje P.*, Kitchens J., Coop G., Osmond M.M."
+  authors: "Deraje P.*, Kitchens J.*, Coop G.**, Osmond M.M.**"
   venue: "G3 Genes|Genomes|Genetics"
   year: 2025
   biorxiv: "https://biorxiv.org/xxxx"
@@ -20,7 +20,7 @@
   journal: "https://doi.org/yyyy"
 
 - title: "Modeling evolutionary rescue "
-  authors: "Uecker H., Osmond M.M.,....,Deraje P., ..."
+  authors: "Uecker H.*, Osmond M.M.*,....,Deraje P., ..."
   venue: "bioRxiv"
   year: 2026
   biorxiv: "https://biorxiv.org/yyyy"
