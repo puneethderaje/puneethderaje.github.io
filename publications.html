@@ -1,0 +1,19 @@
+---
+layout: default
+title: Publications
+---
+
+<h1>Publications</h1>
+
+{% for pub in site.data.publications %}
+<div class="pub-card">
+  <p class="pub-title">{{ pub.title }}</p>
+  <p>{{ pub.authors }}<br><em>{{ pub.venue }}</em>, {{ pub.year }}</p>
+  <p class="pub-links">
+    {% if pub.biorxiv %}<a href="{{ pub.biorxiv }}">bioRxiv</a>{% endif %}
+    {% if pub.journal %} | <a href="{{ pub.journal }}">Published Version</a>{% endif %}
+    {% if pub.slides %} | <a href="{{ pub.slides }}">Slides</a>{% endif %}
+  </p>
+</div>
+{% endfor %}
+
