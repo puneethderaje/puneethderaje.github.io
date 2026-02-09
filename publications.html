@@ -5,26 +5,29 @@ title: Publications
 
 <h1>Publications</h1>
 
+<h2>Preprints and Published</h2>
+{% for pub in site.data.publications %}
+<div class="pub-item">
+  <div>
+    <strong>{{ pub.title }}</strong> {{ pub.authors }} <em>{{ pub.venue }}</em> ({{ pub.year }})
+    {% if pub.biorxiv or pub.journal or pub.slides %}
+    <span class="pub-links">
+      {% if pub.biorxiv %}[<a href="{{ pub.biorxiv }}">bioRxiv</a>]{% endif %}
+      {% if pub.journal %}[<a href="{{ pub.journal }}">journal</a>]{% endif %}
+      {% if pub.slides %}[<a href="{{ pub.slides }}">slides</a>]{% endif %}
+    </span>
+    {% endif %}
+  </div>
+  {% if pub.contributions %}
+  <div class="pub-contribution">Contribution: {{ pub.contributions }}</div>
+  {% endif %}
+</div>
+{% endfor %}
+
 <h2>In Prep</h2>
 {% for pub in site.data.in_prep %}
 <div class="pub-item">
   <strong>{{ pub.title }}</strong> {{ pub.authors }}
 </div>
 {% endfor %}
-
-
-<h2>Preprints and Published</h2>
-{% for pub in site.data.publications %}
-<div class="pub-item">
-  <strong>{{ pub.title }}</strong> {{ pub.authors }} <em>{{ pub.venue }}</em> ({{ pub.year }})
-  {% if pub.biorxiv or pub.journal or pub.slides %}
-  <span class="pub-links">
-    {% if pub.biorxiv %}[<a href="{{ pub.biorxiv }}">bioRxiv</a>]{% endif %}
-    {% if pub.journal %}[<a href="{{ pub.journal }}">journal</a>]{% endif %}
-    {% if pub.slides %}[<a href="{{ pub.slides }}">slides</a>]{% endif %}
-  </span>
-  {% endif %}
-</div>
-{% endfor %}
-
 

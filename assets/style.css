@@ -56,13 +56,20 @@ h2 {
 
 .pub-item {
   padding: 12px 0;
-  margin-bottom: 5px;
+  margin-bottom: 2px;
   line-height: 1.7;
 }
 
 .pub-item strong {
   color: #1a1a1a;
   font-size: 1.05rem;
+}
+
+.pub-contribution {
+  margin-top: 6px;
+  font-size: 0.9rem;
+  color: #555;
+  font-style: italic;
 }
 
 .pub-links {
