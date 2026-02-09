@@ -3,7 +3,7 @@ layout: default
 title: My First Post
 ---
 
-This is my first academic blog post.
+Just testing if it works! 
 
-You can write in Markdown instead of HTML 🎉
+
 
