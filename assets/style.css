@@ -27,19 +27,9 @@ main {
 
 
 .pub-item {
-  padding: 20px;
-  margin-bottom: 24px;
-  background: white;
-  border-left: 3px solid #0066cc;
-  border-radius: 6px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+  padding: 12px 0;
+  margin-bottom: 20px;
   line-height: 1.7;
-  transition: box-shadow 0.2s ease, transform 0.2s ease;
-}
-
-.pub-item:hover {
-  box-shadow: 0 4px 12px rgba(0,0,0,0.12);
-  transform: translateX(4px);
 }
 
 .pub-item strong {
