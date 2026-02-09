@@ -26,21 +26,25 @@ main {
 }
 
 
-.pub-card {
-  background: white;
-  padding: 20px;
-  margin-bottom: 20px;
-  border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+.pub-item {
+  margin-bottom: 16px;
+  line-height: 1.6;
 }
 
-.pub-title {
-  font-weight: 600;
-  font-size: 1.1rem;
+.pub-item strong {
+  color: #1a1a1a;
+}
+
+.pub-links {
+  margin-left: 8px;
 }
 
 .pub-links a {
-  margin-right: 15px;
   text-decoration: none;
-  font-weight: 500;
+  color: #0066cc;
+  font-size: 0.9rem;
+}
+
+.pub-links a:hover {
+  text-decoration: underline;
 }
