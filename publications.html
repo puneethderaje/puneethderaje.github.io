@@ -5,6 +5,14 @@ title: Publications
 
 <h1>Publications</h1>
 
+<h2>In Prep</h2>
+{% for pub in site.data.in_prep %}
+<div class="pub-item">
+  <strong>{{ pub.title }}</strong> {{ pub.authors }}
+</div>
+{% endfor %}
+
+
 <h2>Preprints and Published</h2>
 {% for pub in site.data.publications %}
 <div class="pub-item">
@@ -21,13 +29,6 @@ title: Publications
   {% if pub.contributions %}
   <div class="pub-contribution">Contribution: {{ pub.contributions }}</div>
   {% endif %}
-</div>
-{% endfor %}
-
-<h2>In Prep</h2>
-{% for pub in site.data.in_prep %}
-<div class="pub-item">
-  <strong>{{ pub.title }}</strong> {{ pub.authors }}
 </div>
 {% endfor %}
 
