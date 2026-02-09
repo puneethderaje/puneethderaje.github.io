@@ -5,6 +5,7 @@ title: Publications
 
 <h1>Publications</h1>
 
+<h2>Preprints and Published</h2>
 {% for pub in site.data.publications %}
 <div class="pub-item">
   <strong>{{ pub.title }}</strong> {{ pub.authors }} <em>{{ pub.venue }}</em> ({{ pub.year }})
@@ -15,6 +16,13 @@ title: Publications
     {% if pub.slides %}[<a href="{{ pub.slides }}">slides</a>]{% endif %}
   </span>
   {% endif %}
+</div>
+{% endfor %}
+
+<h2>In Prep</h2>
+{% for pub in site.data.in_prep %}
+<div class="pub-item">
+  <strong>{{ pub.title }}</strong> {{ pub.authors }}
 </div>
 {% endfor %}
 
