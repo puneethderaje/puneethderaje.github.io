@@ -1,16 +1,10 @@
-- title: "Estimating dispersal rates and locating every genetic ancestor of linked loci."
-  authors: "Deraje P.*, Kitchens J.*, Coop G.**, Osmond M.M.**"
-  venue: "G3 Genes|Genomes|Genetics"
-  year: 2025
-  biorxiv: "https://biorxiv.org/xxxx"
-  journal: "https://doi.org/xxxx"
-
-- title: "How do mate finding Allee effects affect evolutionary rescue for different sexual systems?"
-  authors: "Deraje P., Uecker H."
+- title: "Modeling evolutionary rescue "
+  authors: "Uecker H.*, Osmond M.M.*,....,Deraje P., ..."
   venue: "bioRxiv"
-  year: 2025
+  year: 2026
   biorxiv: "https://biorxiv.org/yyyy"
   journal: "https://doi.org/yyyy"
+  contribution: "Section on non-genetic influences on evolutionary rescue"
 
 - title: "Quasi epigenetic equilibrium: the implications of plasticity and variability on evolution and extinction. "
   authors: "Deraje P., Osmond M.M."
@@ -19,11 +13,20 @@
   biorxiv: "https://biorxiv.org/yyyy"
   journal: "https://doi.org/yyyy"
 
-- title: "Modeling evolutionary rescue "
-  authors: "Uecker H.*, Osmond M.M.*,....,Deraje P., ..."
+- title: "How do mate finding Allee effects affect evolutionary rescue for different sexual systems?"
+  authors: "Deraje P., Uecker H."
   venue: "bioRxiv"
-  year: 2026
+  year: 2025
   biorxiv: "https://biorxiv.org/yyyy"
   journal: "https://doi.org/yyyy"
-  contribution: "Wrote the section on non-genetic influences on the phenotype"
+
+- title: "Estimating dispersal rates and locating every genetic ancestor of linked loci."
+  authors: "Deraje P.*, Kitchens J.*, Coop G.**, Osmond M.M.**"
+  venue: "G3 Genes|Genomes|Genetics"
+  year: 2025
+  biorxiv: "https://biorxiv.org/xxxx"
+  journal: "https://doi.org/xxxx"
+
+
+
 
