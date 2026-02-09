@@ -5,9 +5,19 @@ title: Research
 
 # Research
 
-## Project Title
-Short description of your research project.
+## Evoluitonary Rescue 
+Mate-limitation
+Non-genetic architecture 
+Population size and density 
+Broad interest 
 
-## Another Project
-Research direction description.
+## Coalescent Processes 
+Current work : spatial inference from ARG, Balance indices 
+General interest 
+
+## Miscellaneous projects
+Recombination Landscape 
+Mutation rate evolution 
+
+
 
