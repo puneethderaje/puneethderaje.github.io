@@ -5,11 +5,7 @@ title: Home
 
 # Welcome
 
-I am a PhD candidate in [Field] at [University].
+I am a PhD candidate in the Ecology and Evolutionary Biology department at the University of Toronto.
 
-My research focuses on:
-
-- Topic One
-- Topic Two
-- Topic Three
+This website is under construction! 
 
