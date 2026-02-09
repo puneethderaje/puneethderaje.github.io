@@ -1,31 +1,29 @@
 - title: "Modeling evolutionary rescue "
-  authors: "Uecker H.*, Osmond M.M.*,....,Deraje P., ..."
-  venue: "bioRxiv"
+  authors: "Uecker H.*, Osmond M.M.*, Alejandre C., Berrios-Caro E., Clement D.T., Czuppon P., Dekens L., <strong>Deraje P.</strong>, Draghi J.A., Hasan A., Holt R.D., Kuosmanen T., Longcamp A., Marrec L., Martin G., Nyhoegen C., Orive M.E., Kumar V.R., Ronce O., Stana R., Wahl L., Yamamichi M."
+  venue: "In review at <em>Evolution</em>"
   year: 2026
-  biorxiv: "https://biorxiv.org/yyyy"
-  journal: "https://doi.org/yyyy"
   contribution: "Section on non-genetic influences on evolutionary rescue"
 
 - title: "Quasi epigenetic equilibrium: the implications of plasticity and variability on evolution and extinction. "
-  authors: "Deraje P., Osmond M.M."
+  authors: "<strong>Deraje P.</strong>, Osmond M.M."
   venue: "bioRxiv"
   year: 2025
-  biorxiv: "https://biorxiv.org/yyyy"
-  journal: "https://doi.org/yyyy"
+  biorxiv: "https://www.biorxiv.org/content/10.1101/2025.08.27.672696v1.abstract"
+  
 
 - title: "How do mate finding Allee effects affect evolutionary rescue for different sexual systems?"
-  authors: "Deraje P., Uecker H."
-  venue: "bioRxiv"
+  authors: "<strong>Deraje P.</strong>, Uecker H."
+  venue: "bioRxiv (In review at <em>Evolution</em>)"
   year: 2025
-  biorxiv: "https://biorxiv.org/yyyy"
-  journal: "https://doi.org/yyyy"
+  biorxiv: "https://www.biorxiv.org/content/10.1101/2025.09.27.678992v1.abstract"
 
-- title: "Estimating dispersal rates and locating every genetic ancestor of linked loci."
-  authors: "Deraje P.*, Kitchens J.*, Coop G.**, Osmond M.M.**"
+
+- title: "The promise and challenge of spatial inference with the full ancestral recombination graph under Brownian motion."
+  authors: "<strong>Deraje P.</strong>*, Kitchens J.*, Coop G.**, Osmond M.M.**"
   venue: "G3 Genes|Genomes|Genetics"
   year: 2025
-  biorxiv: "https://biorxiv.org/xxxx"
-  journal: "https://doi.org/xxxx"
+  biorxiv: "https://www.biorxiv.org/content/10.1101/2024.04.10.588900v2"
+  journal: "https://doi.org/10.1093/g3journal/jkaf214"
 
 
 
